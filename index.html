@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Responsive Layout Assignment Week 4</title>
+  <title>Responsive Layout Assignment</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -25,26 +25,69 @@
     <!-- Sidebar -->
     <aside class="sidebar">
       <h2>Sidebar</h2>
-      <p>This is the sidebar content.</p>
+      <p>
+        Welcome to the sidebar! Here you can place important links, quick navigation tips, 
+        or even small announcements. A sidebar works well for secondary information 
+        that should be visible but not distracting from the main content. 
+      </p>
+      <p>
+        For example, you might use this space for recent posts, popular articles, 
+        or a list of categories that help readers discover more content on your site.
+      </p>
     </aside>
 
     <!-- Main Content -->
     <section class="content">
       <h2>Main Content</h2>
-      <p>In this assignment, you'll learn how to bring structure, flexibility, and responsiveness to your web pages using modern CSS layout techniques—Flexbox and Grid.</p>
+      <p>
+        This is the heart of the webpage. The main content area is where 
+        you display your articles, blog posts, or product descriptions. 
+        Using CSS Grid allows us to position this section flexibly alongside 
+        the sidebar, while still adapting to smaller devices through media queries.
+      </p>
+      <p>
+        Responsive web design ensures that no matter the screen size—whether 
+        on a large desktop monitor, a tablet, or a mobile phone—your layout 
+        looks organized and easy to read. Flexible units like percentages and 
+        `rem` values help create designs that scale naturally.
+      </p>
       
       <!-- Flexbox Cards -->
       <div class="card-container">
-        <div class="card">Card 1</div>
-        <div class="card">Card 2</div>
-        <div class="card">Card 3</div>
+        <div class="card">
+          <h3>Card 1</h3>
+          <p>
+            This card demonstrates the use of Flexbox for equal spacing 
+            and alignment. Cards like this are great for highlighting 
+            products, services, or features. They adjust automatically 
+            as the screen size changes.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Card 2</h3>
+          <p>
+            Another example card. Notice how it maintains balance and 
+            proportion. On smaller screens, these cards stack vertically 
+            for better readability, thanks to the `flex-wrap` property 
+            and responsive media queries.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Card 3</h3>
+          <p>
+            Cards can also contain images, buttons, or links. They 
+            are one of the most versatile design patterns used in modern 
+            web development, helping content remain both structured and 
+            visually appealing.
+          </p>
+        </div>
       </div>
     </section>
   </main>
 
   <!-- Footer -->
   <footer class="site-footer">
-    <p>&copy; 2025 My Responsive Webpage</p>
+    <p>&copy; 2025 Atina | Designed for learning Flexbox, Grid, and Responsive Web Design</p>
   </footer>
 </body>
 </html>
